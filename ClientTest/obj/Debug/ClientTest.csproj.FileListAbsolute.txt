@@ -8,3 +8,6 @@ Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\
 M:\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\bin\Debug\ClientTest.exe.config
 M:\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\Debug\ClientTest.exe
 M:\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\Debug\ClientTest.pdb
+M:\Verkko-ohjelmointi\Verkko-ohjelmointi\ClientTest\bin\Debug\ClientTest.exe.config
+M:\Verkko-ohjelmointi\Verkko-ohjelmointi\ClientTest\obj\Debug\ClientTest.exe
+M:\Verkko-ohjelmointi\Verkko-ohjelmointi\ClientTest\obj\Debug\ClientTest.pdb

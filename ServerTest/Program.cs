@@ -19,7 +19,7 @@ namespace ServerTest
             tcpListener.Start();
 
             bool ok = true;
-            while(ok)
+            while (ok)
             {
                 // odotetaan uutta yhteyspyyntöä
                 TcpClient client = tcpListener.AcceptTcpClient();

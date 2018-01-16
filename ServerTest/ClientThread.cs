@@ -19,6 +19,7 @@ namespace ServerTest
         }
 
         // ajetaan omassa säikeessään
+        // Muokkaa sivulla 34 olevan mallin mukaan
         public void ServeClient()
         {
             // avataan yhteydet
@@ -29,25 +30,48 @@ namespace ServerTest
 
             sw.AutoFlush = true;
 
-            // luetaan ja käsitellään komennot
-
-            string komento = sr.ReadLine();
-            string vastaus = "";
-            // päivitetään aika
-            switch (komento)
+            bool jatka = true;
+            while (jatka)
             {
-                case "TIME":
-                    vastaus = DateTime.Now.ToString();
-                    break;
-                case "NUMBER_OF_CLIENTS":
-                    vastaus = "1"; // TODO
-                    break;
-                case "QUIT":
-                    vastaus = "lopetus";
-                    break;
+                // Muuta ohjelmaa siten, että säie loppuu, jos asiakkaasta ei ole kuulunut
+                // 60 sekuntiin mitään
+                DateTime viimeinenKomento = DateTime.Now;
+
+                if (ns.DataAvailable)
+                {
+
+                    // luetaan ja käsitellään komennot
+
+                    string komento = sr.ReadLine();
+                    string vastaus = "";
+                    // päivitetään aika
+                    switch (komento)
+                    {
+                        case "TIME":
+                            vastaus = DateTime.Now.ToString();
+                            break;
+                        case "NUMBER_OF_CLIENTS":
+                            vastaus = "1"; // TODO
+                            break;
+                        case "QUIT":
+                            vastaus = "lopetus";
+                            jatka = false;
+                            break;
+                    }
+                    sw.WriteLine(vastaus);
+                    Console.WriteLine(vastaus);
+                }
+                else
+                {
+                    DateTime nyt = DateTime.Now;
+
+                    TimeSpan erotus = nyt - viimeinenKomento;
+                    if (erotus.TotalSeconds > 60)
+                        jatka = false;
+                    else
+                        Thread.Sleep(500);
+                }
             }
-            sw.WriteLine(vastaus);
-            Console.WriteLine(vastaus);
             // suljetaan yhteydet
             sw.Close();
             sr.Close();
