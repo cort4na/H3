@@ -1,0 +1,10 @@
+Y:\Makela_Petteri\TITE14\Verkko-ohjelmointi\Socketit\SocketTestThreadLoop\ClientTest\bin\Debug\ClientTest.exe.config
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\bin\Debug\ClientTest.exe.config
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\bin\Debug\ClientTest.exe
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\bin\Debug\ClientTest.pdb
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\Debug\ClientTest.exe
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\Debug\ClientTest.pdb
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\Debug\ClientTest.csprojResolveAssemblyReference.cache
+M:\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\bin\Debug\ClientTest.exe.config
+M:\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\Debug\ClientTest.exe
+M:\Verkko-ohjelmointi\SocketTestThreadLoop\ClientTest\obj\Debug\ClientTest.pdb

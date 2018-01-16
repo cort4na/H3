@@ -1,0 +1,6 @@
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ServerTest\bin\Debug\ServerTest.exe.config
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ServerTest\bin\Debug\ServerTest.exe
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ServerTest\bin\Debug\ServerTest.pdb
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ServerTest\obj\Debug\ServerTest.csprojResolveAssemblyReference.cache
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ServerTest\obj\Debug\ServerTest.exe
+Y:\Makela_Petteri\TITE16\Verkko-ohjelmointi\SocketTestThreadLoop\ServerTest\obj\Debug\ServerTest.pdb
